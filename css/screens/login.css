@@ -7,7 +7,7 @@
 }
 
 .welcome-header__title{
-    font-size: 25px;
+    font-size:  var(--horizontal-space);
     margin-bottom: 20px;
 }
 
@@ -23,14 +23,14 @@
 }
 
 #login-form input{
-    margin-bottom: 25px;
+    margin-bottom:  var(--horizontal-space);
     font-size: 18px;
     padding: 15px 0px;
     border: none;
 }
 
 #login-form input:not([type="submit"]){
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: var(--main-border);
     transition: border-color 0.3s ease-in-out;
 }
 
